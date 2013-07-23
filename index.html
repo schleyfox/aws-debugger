@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>AWS Debugger</title>
+  </head>
+  <body>
+    <h2>
+      <img src="http://f.cl.ly/items/2W0X1Z2c1l3F2R0b0d3q/Image%202013.07.22%206%3A34%3A31%20PM.gif" alt="you're fucked" />
+      AWS Problems? Have you thought of:
+    </h2>
+    <h1 id="cause"></h1>
+    <h2><a href="index.html">That's not it</a></h2>
+    <p>But it actually probably is EBS</p>
+    <script type="text/javascript">
+      var causes = [
+        "Electrical Storms",
+        "EBS",
+        "Degraded Performance",
+        "Multitenancy",
+        "Noisy Neighbors",
+        "Problems affecting a small subset of our users",
+        "Reticulating Splines",
+        "DNS Resolver",
+        "PRISM",
+        "NAT",
+        "Your shitty code",
+        "DB Snapshot",
+        "Failed Failover",
+        "Unprovisioned IOPS",
+        "Security Groups",
+        "Not enough overlords, spawn more overlords",
+        "Tachyon Rays"
+      ];
+      document.getElementById("cause").innerText = causes[Math.round(Math.random()*(causes.length - 1))];
+    </script>
+  </body>
+</html>
+
